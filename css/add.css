@@ -1,0 +1,183 @@
+@import 'https://fonts.googleapis.com/css?family=Cinzel';
+
+h3.Blinker {
+  font-family: 'Blinker', sans-serif;
+}
+
+p.rounded_normal {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 400;
+}
+
+h3.rounded_bold {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 500;
+}
+
+.box19 {
+    position: relative;
+    padding:0.25em 1em;
+    background: #FFF
+}
+.box19:before,.box19:after{
+    content:'';
+    width: 20px;
+    height: 30px;
+    position: absolute;
+    display: inline-block;
+}
+.box19:before{
+    border-left: solid 5px #333333;
+    border-top: solid 5px #333333;
+    top:0;
+    left: 0;
+}
+.box19:after{
+    border-right: solid 5px #333333;
+    border-bottom: solid 5px #333333;
+    bottom:0;
+    right: 0;
+}
+.box19 p {
+    margin: 0;
+    padding: 0;
+}
+
+.box20 {
+    position: relative;
+    top: 0;
+    background: #cc0033;
+    color: #FFFFFF;
+    border-bottom: 2px #FFFFFF;
+}
+
+.box20 p {
+    margin: 0;
+    padding: 0;
+}
+
+.shadow {
+  box-shadow: 5px 10px 20px rgba(0,0,0,0.25);
+}
+
+.bg_all{
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url(../resources/bg.jpg);
+}
+
+a {
+  color: darkred;
+}
+
+a:hover {
+  color: skyblue;
+  text-decoration: none;
+}
+
+.img-thumbnail {
+  background-color: #990033;
+  border-radius: 0px;
+  border: none;
+}
+
+.text-grad-01 {
+  background: linear-gradient(110deg, #ffd800, #ff0000 45%, #ffd800);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255,255,255,0.0);
+  color: #ff0000;
+}
+
+.text-grad-02 {
+  background: linear-gradient(110deg, #3366cc, #33C4CC 45%, #3366cc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255,255,255,0.0);
+  color: #ff0000;
+}
+
+.text-grad-03 {
+  background: linear-gradient(110deg, #00A975, #57CCBA 45%, #00A975);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255,255,255,0.0);
+  color: #ff0000;
+}
+
+.text-grad-04 {
+  background: linear-gradient(110deg, #EFEFEF, #932B84 45%, #EFEFEF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255,255,255,0.0);
+  color: #ff0000;
+}
+
+.pokoart {
+  position: relative;
+}
+
+.pokoart p {
+  position: absolute;/*絶対配置*/
+  color: white;/*文字は白に*/
+  bottom: 0;
+  right: 0;
+  margin-bottom: 5px;
+  margin-right: 15px;
+  color: #000;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 700;
+  text-shadow: 2px 2px 1px #FFF,
+  -2px 2px 1px #FFF,
+  2px -2px 1px #FFF,
+  -2px -2px 1px #FFF;
+}
+
+.pokoart img {
+  width: 100%;
+}
+
+.box21{
+    padding: 0.5em 1em;
+    background: -moz-linear-gradient(#ffb03c, #ff708d);
+    background: -webkit-linear-gradient(#ffb03c, #ff708d);
+    background: linear-gradient(to right, #ffb03c, #ff708d);
+    color: #FFF;
+}
+.box21 p {
+    margin: 0;
+    padding: 0;
+}
+.button {
+  display: inline-block;
+  width: 200px;
+  height: 54px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 54px;
+  outline: none;
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  line-height: 50px;
+}
+.button::before,
+.button::after {
+  position: absolute;
+  z-index: -1;
+  display: block;
+  content: '';
+}
+.button,
+.button::before,
+.button::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+.button:hover {
+  background-color: rgba(255, 255, 255, .2);
+  color: #FFF
+}
+li{
+  font-size: 0.9rem;
+}
